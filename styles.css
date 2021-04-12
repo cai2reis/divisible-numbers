@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+    font-family: 'Inter', sans-serif;
+    color: #ffffff;
+    background-image: url('https://cdn.avopix.com/photos/detail/d_60119_storm-clouds-over-black-background.jpeg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    backdrop-filter: blur(2px);
+}
+
+
+
+.corefont1 { 
+    color: rgb(233, 203, 203);
+    font-weight:bolder;
+    font-size: 3em;
+    border: 0.1em solid rgb(150, 209, 150)
+    
+    } 
+        
+    .corefont2 { 
+    color: rgb(216, 216, 216);
+    font-size: 2em;
+    font-weight: bolder;
+    font-style: oblique;
+    }
+
+body, body * {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h4, label {
+    text-transform: uppercase;
+    font-weight: 200;
+}
+
+h4 {
+    margin: 0 0 10px;  
+}
+
+
+
